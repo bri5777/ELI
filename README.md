@@ -29,5 +29,5 @@ Now Deploy
 [`HERE'S AN EXAMPLE OUTPUT`](https://Elija-session-test-2d5de70f8522.herokuapp.com)
 # `Owner`
 
- <a href="https://github.com/bri5777/ElIJA"><img src="https://github.com/bri5777/ElIJA.png" width="250" height="250" alt="Itxx Me Wasi"/></a>
+ <a href="https://github.com/bri5777/ElIJA"><img src="https://github.com/bri5777/ElIJA.png" width="250" height="250" alt="Elija"/></a>
 
