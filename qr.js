@@ -17,14 +17,14 @@ const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
 ┌───⭓『
-❒ *WASI-MD*
+❒ *𝑬𝑳𝑰𝑱𝑨-MD*
 ❒ _NOW DEPLOY IT_
 └────────────⭓
 ┌───⭓
 ❒  • Chat with owner •
-❒ *GitHub:* __https://github.com/WASI-MD_
-❒ *Author:* _wa.me/923192173398_
-❒ *YT:* _https://youtube.com/@wasitech10_
+❒ *GitHub:* __https://github.com/bri5777/ElIJA
+❒ *Author:* _wa.me/254720254797_
+❒ *YT:* _https://youtube.com/@Elijahombogo_
 └────────────⭓
 `
 
@@ -44,12 +44,12 @@ if (fs.existsSync('./auth_info_baileys')) {
   
   app.use("/", async(req, res) => {
 
-  const { default: WasiWASocket, useMultiFileAuthState, Browsers, delay,DisconnectReason, makeInMemoryStore, } = require("@whiskeysockets/baileys");
+  const { default: EliajSocket, useMultiFileAuthState, Browsers, delay,DisconnectReason, makeInMemoryStore, } = require("@whiskeysockets/baileys");
   const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
-  async function WASI() {
+  async function Elija() {
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys')
     try {
-      let Smd =WasiWASocket({ 
+      let Smd =ElijaSocket({ 
         printQRInTerminal: false,
         logger: pino({ level: "silent" }), 
         browser: [Browsers.Chrome, 'Windows 10', 'Chrome/89.0.4389.82'],
@@ -129,12 +129,12 @@ SESSION-ID ==> ${Scan_Id}
 
 
 
-  WASI().catch(async(err) => {
+  Elija().catch(async(err) => {
     console.log(err)
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
 
-    //// MADE BY ITXWASI
+    //// MADE BY ELIJAH 
 
 });
 
